@@ -1,0 +1,25 @@
+{
+  "orders": {
+    "0000123": {
+      "status": "in_transit",
+      "queueNumber": 3,
+      "route": [
+        { "lat": 55.751, "lng": 37.571 },
+        { "lat": 55.752, "lng": 37.574 },
+        { "lat": 55.755, "lng": 37.58 },
+        { "lat": 55.76, "lng": 37.61 }
+      ]
+    },
+    "0000456": {
+      "status": "loaded",
+      "queueNumber": 3
+    },
+    "0000789": {
+      "status": "in_transit",
+      "route": [
+        { "lat": 55.75, "lng": 37.57 },
+        { "lat": 55.76, "lng": 37.61 }
+      ]
+    }
+  }
+}
