@@ -1,0 +1,11 @@
+{
+    "include": [
+        "./frontend/src/**/*"
+    ],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./frontend/src/*"],
+        }
+    }
+}
